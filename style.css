@@ -101,13 +101,12 @@ html {
 
 .continue-btn {
   width: 100%;
-  padding: 20px;
+  padding: 18px;
   border: none;
   border-radius: 40px;
-  font-size: 20px;
+  font-size: 18px;
   background-color: hsla(224, 30%, 27%, 1);
   color: hsl(221, 100%, 96%, 0.9);
-  margin-top: 0.3em;
 }
 
 .summary-container {
@@ -187,7 +186,7 @@ html {
     border-radius: 40px;
     border: none;
     box-shadow: 2px 2px 20px rgba(108, 108, 108, 0.3);
-    height: auto;
+    height: 440px;
     width: auto;
   }
 
@@ -235,10 +234,12 @@ html {
   .section-two-header {
     font-size: 20px;
     color: hsla(224, 30%, 27%, 0.9);
+    padding: 20px 0;
   }
 
   .summary-container {
     padding: 15px;
+    margin-bottom: 15px;
   }
 
   .summary-name-icon > h4 {
@@ -250,6 +251,6 @@ html {
   }
 
   .visual {
-    margin-bottom: 2em;
+    margin-bottom: 1.2em;
   }
 }
