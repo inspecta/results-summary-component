@@ -8,6 +8,10 @@ html {
   font-family: "Hanken Grotesk", sans-serif;
 }
 
+body {
+  height: 100vh;
+}
+
 /*
   * Section One
 */
@@ -60,13 +64,6 @@ html {
 
 .circle > p {
   color: hsl(241, 100%, 89%, 0.5);
-}
-
-.attribution {
-  position: absolute;
-  bottom: 0;
-  text-align: center;
-  width: 100%;
 }
 
 .assess {
