@@ -28,7 +28,6 @@ html {
 .section-one-header {
   color: hsl(241, 100%, 89%);
   font-size: 18px;
-  /* font-weight: 800; */
   padding: 22px;
 }
 
@@ -61,6 +60,8 @@ html {
 .attribution {
   position: absolute;
   bottom: 0;
+  text-align: center;
+  width: 100%;
 }
 
 .assess {
@@ -179,40 +180,65 @@ html {
     border-radius: 40px;
     border: none;
     box-shadow: 2px 2px 20px rgba(108, 108, 108, 0.3);
-    height: 380px;
+    height: auto;
   }
 
   .one {
     border-top-left-radius: 40px;
     border-top-right-radius: 40px;
-    height: 380px;
-    width: 260px;
+    height: 440px;
+    width: 310px;
     border-radius: 20px;
   }
 
+  .section-one-header {
+    padding: 30px;
+    font-size: 20px;
+    font-weight: 400;
+  }
+
   .circle {
-    width: 120px;
-    height: 120px;
+    width: 175px;
+    height: 175px;
   }
 
   .circle > h3 {
-    font-size: 50px;
+    font-size: 60px;
   }
 
   .assess {
-    width: 200px;
+    width: 210px;
+  }
+
+  .assess > h3 {
+    font-size: 28px;
+    font-weight: 400;
+    color: hsl(0, 0%, 100%, 0.85);
+  }
+
+  .assess > p {
+    color: hsl(241, 100%, 89%, 0.9);
   }
 
   .two {
-    padding: 0 30px 30px 30px;
+    padding: 0 35px 30px 35px;
+  }
+
+  .section-two-header {
+    font-size: 20px;
+    color: hsla(224, 30%, 27%, 0.9);
   }
 
   .summary-container {
-    padding: 10px;
+    padding: 15px;
+  }
+
+  .summary-name-icon > h4 {
+    font-weight: 400;
   }
 
   .continue-btn {
-    padding: 10px;
+    padding: 12px;
   }
 
   .visual {
