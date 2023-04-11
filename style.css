@@ -1,0 +1,221 @@
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap");
+
+*,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Hanken Grotesk", sans-serif;
+}
+
+/*
+  * Section One
+*/
+.one {
+  text-align: center;
+  width: 372px;
+  height: 356px;
+  margin: 0 auto;
+  background: linear-gradient(
+    to bottom,
+    hsl(252, 100%, 67%),
+    hsl(241, 81%, 54%)
+  );
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
+
+.section-one-header {
+  color: hsl(241, 100%, 89%);
+  font-size: 18px;
+  /* font-weight: 800; */
+  padding: 22px;
+}
+
+.circle {
+  background: linear-gradient(
+    to bottom,
+    hsla(256, 72%, 46%, 1),
+    hsla(241, 72%, 46%, 0)
+  );
+  width: 140px;
+  height: 140px;
+  margin: 0 auto;
+  border-radius: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1em;
+}
+
+.circle > h3 {
+  font-size: 55px;
+  color: hsl(0, 0%, 100%);
+}
+
+.circle > p {
+  color: hsl(241, 100%, 89%, 0.5);
+}
+
+.attribution {
+  position: absolute;
+  bottom: 0;
+}
+
+.assess {
+  width: 250px;
+  margin: 0 auto;
+  font-size: 15px;
+}
+
+.assess > h3 {
+  color: hsl(0, 0%, 100%);
+  font-size: 23px;
+  padding: 10px;
+}
+
+.assess > p {
+  color: hsl(241, 100%, 89%, 0.7);
+}
+
+/*
+  * Section Two
+*/
+.two {
+  width: 320px;
+  margin: 0 auto;
+}
+
+.section-two-header {
+  padding: 25px 0;
+  font-size: 18px;
+}
+
+.continue-btn {
+  width: 100%;
+  padding: 18px;
+  border: none;
+  border-radius: 40px;
+  font-size: 18px;
+  background-color: hsla(224, 30%, 27%, 1);
+  color: hsl(221, 100%, 96%, 0.9);
+}
+
+.summary-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 18px;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.summary-name-icon {
+  display: flex;
+  width: 50%;
+  gap: 10px;
+  align-items: center;
+}
+
+.reaction {
+  background-color: hsl(0, 100%, 67%, 0.08);
+}
+
+.reaction > .summary-name-icon > h4 {
+  color: hsl(0, 100%, 67%, 0.7);
+}
+
+.memory {
+  background-color: hsl(39, 100%, 56%, 0.08);
+}
+
+.memory > .summary-name-icon > h4 {
+  color: hsl(39, 100%, 56%, 0.7);
+}
+
+.verbal {
+  background-color: hsl(166, 100%, 37%, 0.08);
+}
+
+.verbal > .summary-name-icon > h4 {
+  color: hsl(166, 100%, 37%, 0.7);
+}
+
+.visual {
+  background-color: hsl(234, 85%, 45%, 0.08);
+}
+
+.visual > .summary-name-icon > h4 {
+  color: hsl(234, 85%, 45%, 0.7);
+}
+
+.summary-score-highest {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  align-items: center;
+  font-weight: 500;
+}
+
+.summary-score {
+  color: hsla(224, 30%, 27%, 0.8);
+}
+
+.summary-highest {
+  color: hsla(277, 4%, 60%, 1);
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    border-radius: 40px;
+    border: none;
+    box-shadow: 2px 2px 20px rgba(108, 108, 108, 0.3);
+    height: 380px;
+  }
+
+  .one {
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    height: 380px;
+    width: 260px;
+    border-radius: 20px;
+  }
+
+  .circle {
+    width: 120px;
+    height: 120px;
+  }
+
+  .circle > h3 {
+    font-size: 50px;
+  }
+
+  .assess {
+    width: 200px;
+  }
+
+  .two {
+    padding: 0 30px 30px 30px;
+  }
+
+  .summary-container {
+    padding: 10px;
+  }
+
+  .continue-btn {
+    padding: 10px;
+  }
+
+  .visual {
+    margin-bottom: 2em;
+  }
+}
